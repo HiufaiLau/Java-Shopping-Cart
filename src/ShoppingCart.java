@@ -1,13 +1,11 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 class ShoppingCart {
 
     private List<Product> productList;
-    private int totalPrice;
+    private Integer totalPrice;
 
     public ShoppingCart() {
         productList = new ArrayList<>();
@@ -16,18 +14,23 @@ class ShoppingCart {
 
     public void addProduct(Product p) {
         this.productList.add(p);
-//        totalPrice += p.getPrice();
 //                System.out.println(this.productList);
     }
-
 
     public void countFreeItems(String itemName) {
         int size = productList.stream()
                 .filter(item -> item.getName().equals(itemName))
                 .collect(Collectors.toList())
                 .size();
+        double removeFreeItems = Math.floor(size/4);
+        size -= removeFreeItems;
         System.out.println(itemName + " : " + size);
     }
+
+    public void ItemsRepalcement(String replacement){
+
+    }
+
     public void totalPrice() {
         for (Product p : productList) {
             totalPrice += p.getPrice();

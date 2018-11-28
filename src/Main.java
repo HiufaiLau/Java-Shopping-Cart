@@ -18,6 +18,15 @@ public class Main {
         ShoppingCart sc = new ShoppingCart();
 
         sc.addProduct(p);
+        sc.addProduct(p);
+        sc.addProduct(p);
+        sc.addProduct(p);
+        sc.addProduct(p);
+        sc.addProduct(p);
+        sc.addProduct(p);
+        sc.addProduct(p);
+
+
         sc.addProduct(p2);
         sc.addProduct(p3);
         sc.addProduct(p3);
@@ -33,7 +42,7 @@ public class Main {
         sc.countFreeItems(p.getName());
         sc.countFreeItems(p2.getName());
         sc.countFreeItems(p3.getName());
-        System.out.println("The total price" + ":" + sc.getTotalPrice() + "€");
+        System.out.println("The original total price" + ":" + sc.getTotalPrice() + "€");
 
     }
 }
