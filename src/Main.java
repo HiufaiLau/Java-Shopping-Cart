@@ -20,12 +20,16 @@ public class Main {
         sc.addProduct(p);
         sc.addProduct(p2);
         sc.addProduct(p3);
+        sc.addProduct(p3);
+        sc.addProduct(p3);
+        sc.addProduct(p3);
 
         sc.getProductList().forEach(product -> {
             System.out.println(product.getName());
             System.out.println(product.getPrice());
         });
 
+        sc.totalPrice();
         System.out.println("The total price" + ":" + sc.getTotalPrice() + "€");
     }
 }

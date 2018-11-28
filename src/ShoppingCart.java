@@ -6,17 +6,30 @@ class ShoppingCart {
     private List<Product> productList;
     private int totalPrice;
 
+
     public ShoppingCart() {
         productList = new ArrayList<>();
         totalPrice = 0;
+
     }
 
 
     public void addProduct(Product p) {
         this.productList.add(p);
-//        System.out.println(this.productList);
-        totalPrice += p.getPrice();
+//        totalPrice += p.getPrice();
+        //        System.out.println(this.productList);
+    }
 
+    public void totalPrice() {
+//        int newTotalPrice = 0;
+        for (Product p : productList) {
+            totalPrice += p.getPrice();
+        }
+        if(productList.size() >= 5) {
+            System.out.println("The total price after discount" + ":" + Math.floor(totalPrice * 0.9)+ "€");
+        } else {
+            System.out.println("The total price" + ":" + totalPrice);
+        }
     }
 
     public List<Product> getProductList() {
