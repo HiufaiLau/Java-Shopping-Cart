@@ -27,16 +27,32 @@ class ShoppingCart {
         System.out.println(itemName + " : " + size);
     }
 
-    public void ItemsRepalcement(String replacement){
-
-    }
-
     public void totalPrice() {
         for (Product p : productList) {
             totalPrice += p.getPrice();
         }
+//        if(productList.size() >= 5) {
+//            System.out.println("The total price after discount" + ":" + Math.floor(totalPrice * 0.9)+ "€");
+//        } else {
+//            System.out.println("The total price" + ":" + Math.floor(totalPrice));
+//        }
+        System.out.println("The original total price" + " : " + getTotalPrice() + "€");
+    }
+
+    public void ItemsRepalcement(String productName, Product replacement){
+        for (Product newP: productList){
+            if (newP.getName().equals(productName)) {
+                newP.setName(replacement.getName());
+                newP.setPrice(replacement.getPrice());
+            }
+        }
+
+        for (Product newP: productList) {
+            countFreeItems(newP.getName());
+        }
+        System.out.println("This replacement"+" : " + replacement.getName() + " " +replacement.getPrice()+ "€");
         if(productList.size() >= 5) {
-            System.out.println("The total price after discount" + ":" + Math.floor(totalPrice * 0.9)+ "€");
+            System.out.println("The total price after discount" + ":" + Math.floor((totalPrice )* 0.9)+ "€");
         } else {
             System.out.println("The total price" + ":" + Math.floor(totalPrice));
         }
