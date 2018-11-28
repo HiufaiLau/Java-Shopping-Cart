@@ -1,19 +1,23 @@
 class Product {
 
-    private String name;
+        private String name;
 
-    private int price;
+        private int price;
+
+
+
+//    int freeItemsPrice;
+
+
 
     public Product(){} // if send something to front end
 
     public Product(String name, int price) {
-        this.name = name;
+            this.name = name;
         this.price = price;
-
     }
 
     public void ShowPrice() {
-
         System.out.println(name + " " + "is" +" "+ price + "€");
     }
 
@@ -32,4 +36,5 @@ class Product {
     public void setPrice(int price) {
         this.price = price;
     }
+
 }

@@ -30,6 +30,10 @@ public class Main {
         });
 
         sc.totalPrice();
+        sc.countFreeItems(p.getName());
+        sc.countFreeItems(p2.getName());
+        sc.countFreeItems(p3.getName());
         System.out.println("The total price" + ":" + sc.getTotalPrice() + "€");
+
     }
 }
