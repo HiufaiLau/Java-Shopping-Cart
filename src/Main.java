@@ -4,9 +4,9 @@ public class Main {
         Product p2 = new Product("pencil", 9);
         Product p3 = new Product("bike", 300);
 
-//        p.ShowPrice();
-//        p2.ShowPrice();
-//        p3.ShowPrice();
+        p.ShowPrice();
+        p2.ShowPrice();
+        p3.ShowPrice();
 
         ShoppingCart sc = new ShoppingCart();
 
@@ -19,9 +19,9 @@ public class Main {
 
 
         sc.addProduct(p2);
-//        sc.addProduct(p2);
-//        sc.addProduct(p2);
-//        sc.addProduct(p2);
+        sc.addProduct(p2);
+        sc.addProduct(p2);
+        sc.addProduct(p2);
 //        sc.addProduct(p2);
 //        sc.addProduct(p2);
 //        sc.addProduct(p2);
@@ -33,10 +33,10 @@ public class Main {
 //        sc.addProduct(p3);
 //        sc.addProduct(p3);
 
-        sc.getProductList().forEach(product -> {
-            System.out.println(product.getName());
-            System.out.println(product.getPrice());
-        });
+//        sc.getProductList().forEach(product -> {
+//            System.out.println(product.getName());
+//            System.out.println(product.getPrice());
+//        });
 
         sc.totalPrice();
         sc.countFreeItems(p.getName());

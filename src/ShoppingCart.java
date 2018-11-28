@@ -5,11 +5,11 @@ import java.util.stream.Collectors;
 class ShoppingCart {
 
     private List<Product> productList;
-    private Integer totalPrice;
+    private Double totalPrice;
 
     public ShoppingCart() {
         productList = new ArrayList<>();
-        totalPrice = 0;
+        totalPrice = 0D;
     }
 
     public void addProduct(Product p) {
@@ -48,7 +48,7 @@ class ShoppingCart {
         }
         System.out.println("The original total price" + " : " + getTotalPrice() + "€");
         if(productList.size() >= 5) {
-            System.out.println("The total price after discount" + ":" + Math.floor(totalPrice * 0.9)+ "€");
+            System.out.println("The total price after 10% discount" + ":" + Math.floor(totalPrice * 0.9)+ "€");
         } else {
             System.out.println("The total price" + ":" + Math.floor(totalPrice));
         }
@@ -62,11 +62,11 @@ class ShoppingCart {
         this.productList = productList;
     }
 
-    public int getTotalPrice() {
+    public Double getTotalPrice() {
         return totalPrice;
     }
 
-    public void setTotalPrice(int totalPrice) {
+    public void setTotalPrice(Double totalPrice) {
         this.totalPrice = totalPrice;
     }
 

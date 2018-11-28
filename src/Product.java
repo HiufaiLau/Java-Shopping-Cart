@@ -20,6 +20,7 @@ class Product {
 
     public void ShowPrice() {
         System.out.println(name + " " + "is" +" "+ price + "€");
+        System.out.println();
     }
 
     public String getName() {
