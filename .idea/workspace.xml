@@ -39,14 +39,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="54" column="94" selection-start-line="54" selection-start-column="94" selection-end-line="54" selection-end-column="94" />
+            <state relative-caret-position="153">
+              <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2123#2124#0" expanded="true" />
-                <element signature="e#2230#2231#0" expanded="true" />
-                <element signature="e#2297#2298#0" expanded="true" />
-                <element signature="e#2390#2391#0" expanded="true" />
+                <element signature="e#1882#1883#0" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
+                <element signature="e#2056#2057#0" expanded="true" />
+                <element signature="e#2149#2150#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="391">
+              <caret line="38" column="11" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -128,7 +128,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543445143629" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543447755320" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -201,7 +201,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543313549939</updated>
-      <workItem from="1543313558856" duration="51759000" />
+      <workItem from="1543313558856" duration="54364000" />
     </task>
     <task id="LOCAL-00001" summary="price changed">
       <created>1543338591502</created>
@@ -238,15 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543424471914</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added replacement">
+      <created>1543445346259</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543445346259</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51759000" />
+    <option name="totallyTimeSpent" value="54364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -320,7 +326,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="price changed" />
     <MESSAGE value="added discount and the amount of items" />
-    <option name="LAST_COMMIT_MESSAGE" value="added discount and the amount of items" />
+    <MESSAGE value="added replacement" />
+    <option name="LAST_COMMIT_MESSAGE" value="added replacement" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
@@ -385,21 +392,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="391">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="54" column="94" selection-start-line="54" selection-start-column="94" selection-end-line="54" selection-end-column="94" />
+        <state relative-caret-position="153">
+          <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2230#2231#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2149#2150#0" expanded="true" />
           </folding>
         </state>
       </provider>

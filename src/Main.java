@@ -4,26 +4,34 @@ public class Main {
         Product p2 = new Product("pencil", 9);
         Product p3 = new Product("bike", 300);
 
-        p.ShowPrice();
-        p2.ShowPrice();
-        p3.ShowPrice();
+//        p.ShowPrice();
+//        p2.ShowPrice();
+//        p3.ShowPrice();
 
         ShoppingCart sc = new ShoppingCart();
 
         sc.addProduct(p);
-        sc.addProduct(p);
-        sc.addProduct(p);
-        sc.addProduct(p);
-        sc.addProduct(p);
+//        sc.addProduct(p);
+//        sc.addProduct(p);
+//        sc.addProduct(p);
+//        sc.addProduct(p);
+//        sc.addProduct(p);
 
 
         sc.addProduct(p2);
+//        sc.addProduct(p2);
+//        sc.addProduct(p2);
+//        sc.addProduct(p2);
+//        sc.addProduct(p2);
+//        sc.addProduct(p2);
+//        sc.addProduct(p2);
+//        sc.addProduct(p2);
 
         sc.addProduct(p3);
-        sc.addProduct(p3);
-        sc.addProduct(p3);
-        sc.addProduct(p3);
-        sc.addProduct(p3);
+//        sc.addProduct(p3);
+//        sc.addProduct(p3);
+//        sc.addProduct(p3);
+//        sc.addProduct(p3);
 
         sc.getProductList().forEach(product -> {
             System.out.println(product.getName());
@@ -41,8 +49,8 @@ public class Main {
 
         sc.ItemsRepalcement("bike", replacedProduct3);
         sc.ItemsRepalcement("pencil", replacedProduct2);
+        sc.ItemsRepalcement("vacuum cleaner", replacedProduct);
 
 
-        System.out.println("The original total price" + " : " + sc.getTotalPrice() + "€");
     }
 }
