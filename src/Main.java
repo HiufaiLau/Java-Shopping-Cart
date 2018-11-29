@@ -19,14 +19,17 @@ public class Main {
 
 
         sc.addProduct(p2);
-        sc.addProduct(p2);
-        sc.addProduct(p2);
-        sc.addProduct(p2);
+//        sc.addProduct(p2);
+//        sc.addProduct(p2);
+//        sc.addProduct(p2);
 //        sc.addProduct(p2);
 //        sc.addProduct(p2);
 //        sc.addProduct(p2);
 //        sc.addProduct(p2);
 
+        sc.addProduct(p3);
+        sc.addProduct(p3);
+        sc.addProduct(p3);
         sc.addProduct(p3);
 //        sc.addProduct(p3);
 //        sc.addProduct(p3);
