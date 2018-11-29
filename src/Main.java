@@ -47,10 +47,10 @@ public class Main {
         Product replacedProduct2 = new Product("pencil fancy", 5);
         Product replacedProduct3 = new Product("bike X", 250);
 
-        sc.ItemsRepalcement("bike", replacedProduct3);
+//        sc.ItemsRepalcement("bike", replacedProduct3);
         sc.ItemsRepalcement("pencil", replacedProduct2);
-        sc.ItemsRepalcement("vacuum cleaner", replacedProduct);
-
+//        sc.ItemsRepalcement("vacuum cleaner", replacedProduct);
+        sc.totalPrice();
 
     }
 }

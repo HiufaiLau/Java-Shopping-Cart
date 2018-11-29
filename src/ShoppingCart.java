@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 class ShoppingCart {
@@ -28,16 +29,30 @@ class ShoppingCart {
     }
 
     public void ItemsRepalcement(String productName, Product replacement){
+
         for (Product product: productList){
-            if (product.getName().equals(productName)) {
-                product.setName(replacement.getName());
-                product.setPrice(replacement.getPrice());
-            }
+            System.out.println("old list: " + product.getName());
         }
 
+        List<Product> newList = productList.stream().map(product -> {
+            if (productName.equals(product.getName())) {
+                return replacement;
+            } else {
+                return product;
+            }
+        }).collect(Collectors.toList());
+
+        productList = newList;
+
+        for (Product product: productList){
+            System.out.println("New list: " + product.getName());
+        }
+
+//
 //        for (Product product : productList) {
 //            countFreeItems(product.getName());
 //        }
+
         System.out.println("This replacement"+" : " + replacement.getName() + " " +replacement.getPrice()+ "€");
 
     }
