@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f63c91e6-789a-428d-8637-a8dfa18dfea4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -127,10 +126,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543509332109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543587474823" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,7 +200,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543313549939</updated>
-      <workItem from="1543313558856" duration="65491000" />
+      <workItem from="1543313558856" duration="66399000" />
     </task>
     <task id="LOCAL-00001" summary="price changed">
       <created>1543338591502</created>
@@ -279,15 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543487958643</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="finished the shooping Cart">
+      <created>1543510101776</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1543510101776</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65491000" />
+    <option name="totallyTimeSpent" value="66399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -303,10 +309,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49878544" visible="true" weight="0.357016" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49878544" weight="0.357016" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -367,7 +373,8 @@
     <MESSAGE value="finished the replacement and shooping Cart" />
     <MESSAGE value="shooping Cart" />
     <MESSAGE value="keep both replacement methods in shooping Cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="keep both replacement methods in shooping Cart" />
+    <MESSAGE value="finished the shooping Cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished the shooping Cart" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
